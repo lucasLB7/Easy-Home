@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>EasyHome</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link href='css/animate.css' rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+  <div class="mainBackcontent">
+    <div class="container-flex" id="containBox">
+
+
+      <div class="jumbotron indexMap text-center">
+        <h1>Easy Home</h1>
+
+        <h2>Get started easy..</h2>
+
+
+        <div class="dropdown">
+          <button class="dropbtn alert alert-warning">Automate your home</button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="descImg">
+
+    </div>
+
+    <div class="text-center contentint">
+      <h1>Tick required boxes to add external inputs and outputs</h1>
+    </div>
+
+    <form>
+      <div class="row">
+        <div class="col-md-6 animated jackInTheBox">
+          <div class="checkbox" id="Lighting">
+            <h1>Lights & LED's</h1>
+            <div id="showCheckoutHistoryCheckbox">
+              <input tabindex="40" checked="unchecked" id="lamp1" name="showCheckoutHistory1" type="checkbox">
+              <label for="showCheckoutHistory" class="checkLabel">Living room</label><br>
+              <div id="result1"></div>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="col-md-6 animated jackInTheBox">
+          <div class="checkbox" id="Lighting">
+            <h1>Temperature control</h1>
+            <div id="showCheckoutHistoryCheckbox">
+              <input tabindex="40" checked="unchecked" id="tempC" name="showCheckoutHistory" type="checkbox">
+              <label for="showCheckoutHistory" class="checkLabel">Living room</label><br>
+              <div id="result"></div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+
+
+
+
+    </form>
+
+
+    <script src="jS/jquery.js"></script>
+    <script src="jS/scripts.js"></script>
+</body>
+
+</html>
